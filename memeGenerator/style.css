@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+h1{
+    
+    color: blueviolet;
+}
+h2{
+    
+    color: brown;
+}
+
+
+button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: violet;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+button:hover{
+    color:aliceblue ;
+    background-color:violet ;
+}
+.image-generator img {
+    height: 430px;
+    object-fit: cover;
+}
