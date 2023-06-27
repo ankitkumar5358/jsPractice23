@@ -22,3 +22,11 @@ let, const -  ecma 2016, block scope, let/const add itself to window object
 // ! forEach, for..in, do while
 
 // ! fn, callback fn
+
+// ! conditionals, if-else, if-elseif-else
+
+// ! ternary operator ? :
+let vAge = 23;
+(vAge >= 18) ? console.log('Can Vote') : (vAge < 18) ? console.log('Can\'t Vote') : console.log('Do Nothing');
+
+// ! OR ||
